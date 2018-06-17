@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "./node_modules/.bin/webpack-dev-server --config webpack.dev.js",
+    "build": "./node_modules/.bin/webpack --config webpack.dev.js"
   },
   "repository": {
     "type": "git",
@@ -12,9 +13,6 @@
   },
   "author": "",
   "license": "ISC",
-  "scripts": {
-    "start": "./node_modules/.bin/webpack-dev-server --config webpack.dev.js"
-  },
   "bugs": {
     "url": "https://github.com/javascriptru/rxjs-typescript-starter/issues"
   },
